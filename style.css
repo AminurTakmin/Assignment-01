@@ -1,4 +1,50 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+/* !This is header section */
+
+.nav-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+  background: rgba(229, 84, 115, 0.1);
+  gap: 90px;
+}
+
+.nav-photo {
+  height: 600px;
+  margin-top: 160px;
+}
+
+.nav-title {
+  width: 700px;
+  height: 200px;
+  color: #272727;
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.nav-descrip {
+  margin-top: 20px;
+  width: 600px;
+  height: 90px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 20px 30px;
+  color: white;
+  border-radius: 8px;
+  background: #e55473;
+  font-size: 15px;
+  border: none;
 }
