@@ -7,7 +7,6 @@
 /* !This is header section */
 
 .nav-container {
-  /* height: 100vh; */
   width: 1920px;
   height: 850px;
   display: flex;
@@ -20,7 +19,6 @@
 .nav-photo {
   height: 600px;
   margin-top: 250px;
-  /* margin-bottom: 0px; */
 }
 
 .nav-title {
@@ -42,7 +40,6 @@
 }
 
 .btn {
-  margin-top: 20px;
   padding: 20px 30px;
   color: white;
   border-radius: 8px;
@@ -91,34 +88,24 @@ footer {
 
 /* ! This is featured section */
 .featured-items {
-  /* height: 100vh;
-  max-width: 100%; */
   width: 1910px;
   height: 620px;
   text-align: center;
-  /* padding-bottom: 0px; */
-  /* margin-bottom: 100px; */
-  /* border: 5px solid #f04949; */
   margin-top: 170px;
 }
 .feat-title {
   color: #272727;
   font-size: 35px;
   font-weight: 800;
-  /* padding-bottom: 20px; */
-  /* margin-top: 170px; */
-  /* border: 5px solid; */
 }
 .feat-descrip {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
-  /* padding-top: 200px; */
   padding: 0px 650px;
   text-align: center;
   margin-bottom: 48px;
   margin-top: 20px;
-  /* border: 5px solid; */
 }
 
 .flower {
@@ -126,7 +113,6 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 55px;
-  /* margin-top: 50px; */
 }
 .pink-flower {
   width: 200px;
@@ -144,9 +130,6 @@ footer {
   width: 200px;
   height: 300px;
   margin: 40px 35px -3px 35px;
-
-  /* margin: 80px 30px 0px 30px; */
-  /* padding-bottom: 0px; */
 }
 .red-bg {
   width: 300px;
@@ -158,9 +141,6 @@ footer {
   width: 200px;
   height: 300px;
   margin: 40px 35px -3px 35px;
-
-  /* margin: 80px 30px 0px 30px; */
-  /* padding-bottom: 0px; */
 }
 
 .yellow-bg {
@@ -176,12 +156,10 @@ footer {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
-  /* border: 5px solid; */
 }
 
 .flower-name h4 {
   margin-top: 25px;
-  /* border: 5px solid; */
 }
 
 /* ! This is service section */
@@ -196,14 +174,12 @@ footer {
   justify-content: space-around;
   gap: 10px;
   margin: 0px 250px 128px;
-  /* border: 5px solid; */
 }
 
 .service-name {
   color: rgba(39, 39, 39, 0.8);
   font-size: 20px;
   font-weight: 600;
-  /* border: 5px solid; */
 }
 
 /* ! This is Deal Section */
@@ -230,20 +206,15 @@ footer {
   color: rgba(39, 39, 39, 0.6);
   font-size: 21px;
   font-weight: 400;
-  /* text-align: center; */
-  /* border: 5px solid; */
-  /* margin: 0px 400px 0px; */
   width: 594px;
   margin-top: 24px;
   margin-bottom: 32px;
-  /* text-align: left; */
 }
 
 /* ! This is Instagram section */
 .instagram-sec {
   width: 1910px;
   height: 520px;
-  /* border: 5px solid red; */
   margin: 120px 0px;
 }
 .insta-head {
@@ -268,17 +239,8 @@ footer {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  /* height: 100px;
-    width: 200px; */
-  /* border: 5px solid red; */
-  /* padding: 20px;
-    margin: 30px; */
 }
 .insta-photo {
-  /* padding: 100px; */
-  /* height: 50px;
-    width: 100px; */
-  /* border: 5px solid; */
   margin-top: 48px;
 }
 .insta-pic {
@@ -287,3 +249,49 @@ footer {
 }
 
 /* ! This is Get Latest Deal section */
+.get-deal-container {
+  width: 1440px;
+  height: 449px;
+  margin: 0px 240px;
+  margin-bottom: 120px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./Rectangle\ 9.png");
+}
+
+.get-deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.get-deal-descrip {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 16px 0px 0px;
+}
+
+input {
+  border-radius: 8px;
+  background: #fff;
+  height: 60pxpx;
+  width: 700px;
+  border: none;
+}
+
+input[type="email"]::placeholder {
+  padding-left: 22px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 16px;
+}
