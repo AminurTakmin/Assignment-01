@@ -13,7 +13,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  /* border: 5px solid; */
   background-color: rgb(230, 230, 230);
 }
 .navbar-text {
@@ -331,4 +330,69 @@ input[type="email"]::placeholder {
   justify-content: center;
   margin-top: 48px;
   gap: 16px;
+}
+
+/* ! Flower's you love (Bonus section) */
+
+.purachase-sec {
+  width: 1922px;
+  height: 650px;
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.purchase-flower-heading {
+  background: rgba(229, 84, 115, 0.05);
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.purchase-catag {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.purchase-title {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.purchase-img {
+  height: 400px;
+}
+
+.p-1 {
+  margin-right: 50px;
+  box-shadow: 5px 10px 30px rgb(104, 103, 103);
+}
+.purchase-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0px;
+}
+
+.readmore-btn {
+  border-radius: 8px;
+  background: white;
+
+  text-color: black;
+
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.readmore-btn:hover {
+  color: palevioletred;
 }
