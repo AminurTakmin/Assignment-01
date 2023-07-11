@@ -44,8 +44,13 @@
   color: white;
   border-radius: 8px;
   background: #e55473;
-  font-size: 15px;
+  font-size: 18px;
   border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: black;
 }
 
 /* ! this footer section */
@@ -78,4 +83,76 @@ footer {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
   font-weight: 400;
+}
+
+/* ! This is featured section */
+.featured-items {
+  text-align: center;
+}
+.feat-title {
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  margin-top: 170px;
+}
+.feat-descrip {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0px 550px;
+  margin-bottom: 48px;
+}
+
+.flower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 25px;
+}
+.pink-flower {
+  width: 200px;
+  height: 300px;
+  margin: 80px 30px 0px 30px;
+  padding-bottom: 0px;
+}
+
+.pink-bg {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.red-flower {
+  width: 200px;
+  height: 300px;
+  margin: 80px 30px 0px 30px;
+  padding-bottom: 0px;
+}
+.red-bg {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.yellow-flower {
+  width: 200px;
+  height: 300px;
+  margin: 80px 30px 0px 30px;
+  padding-bottom: 0px;
+}
+
+.yellow-bg {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-name {
+  text-align: center;
+  text-decoration: underline;
+  color: #272727;
+  font-size: 18px;
+  font-weight: 700;
+}
+.flower-name h4 {
+  margin-top: 25px;
 }
