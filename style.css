@@ -175,8 +175,10 @@ footer {
   color: #272727;
   font-size: 18px;
   font-weight: 700;
+  cursor: pointer;
   /* border: 5px solid; */
 }
+
 .flower-name h4 {
   margin-top: 25px;
   /* border: 5px solid; */
@@ -236,3 +238,52 @@ footer {
   margin-bottom: 32px;
   /* text-align: left; */
 }
+
+/* ! This is Instagram section */
+.instagram-sec {
+  width: 1910px;
+  height: 520px;
+  /* border: 5px solid red; */
+  margin: 120px 0px;
+}
+.insta-head {
+  text-align: center;
+}
+
+.insta-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.insta-descrip {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  padding: 0px 650px;
+}
+
+.insta-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  /* height: 100px;
+    width: 200px; */
+  /* border: 5px solid red; */
+  /* padding: 20px;
+    margin: 30px; */
+}
+.insta-photo {
+  /* padding: 100px; */
+  /* height: 50px;
+    width: 100px; */
+  /* border: 5px solid; */
+  margin-top: 48px;
+}
+.insta-pic {
+  height: 350px;
+  width: 300;
+}
+
+/* ! This is Get Latest Deal section */
