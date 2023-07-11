@@ -7,7 +7,9 @@
 /* !This is header section */
 
 .nav-container {
-  height: 100vh;
+  /* height: 100vh; */
+  width: 1920px;
+  height: 850px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +19,8 @@
 
 .nav-photo {
   height: 600px;
-  margin-top: 160px;
+  margin-top: 250px;
+  /* margin-bottom: 0px; */
 }
 
 .nav-title {
@@ -53,9 +56,10 @@
   color: black;
 }
 
-/* ! this footer section */
+/* ! this is footer section */
 footer {
-  height: 50vh;
+  width: 1922px;
+  height: 449px;
   background-color: black;
 }
 
@@ -77,7 +81,7 @@ footer {
   color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   font-weight: 400;
-  padding: 0px 550px 35px;
+  padding: 0px 650px 35px;
 }
 .copyright {
   color: rgba(255, 255, 255, 0.4);
@@ -87,38 +91,51 @@ footer {
 
 /* ! This is featured section */
 .featured-items {
+  /* height: 100vh;
+  max-width: 100%; */
+  width: 1910px;
+  height: 620px;
   text-align: center;
+  /* padding-bottom: 0px; */
+  /* margin-bottom: 100px; */
+  /* border: 5px solid #f04949; */
+  margin-top: 170px;
 }
 .feat-title {
   color: #272727;
   font-size: 35px;
   font-weight: 800;
-  padding-bottom: 20px;
-  margin-top: 170px;
+  /* padding-bottom: 20px; */
+  /* margin-top: 170px; */
+  /* border: 5px solid; */
 }
 .feat-descrip {
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
-  padding: 0px 550px;
+  /* padding-top: 200px; */
+  padding: 0px 650px;
+  text-align: center;
   margin-bottom: 48px;
+  margin-top: 20px;
+  /* border: 5px solid; */
 }
 
 .flower {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
-  margin-bottom: 25px;
+  gap: 55px;
+  /* margin-top: 50px; */
 }
 .pink-flower {
   width: 200px;
   height: 300px;
-  margin: 80px 30px 0px 30px;
-  padding-bottom: 0px;
+  margin: 40px 35px -3px 35px;
 }
 
 .pink-bg {
+  width: 300px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
 }
@@ -126,10 +143,13 @@ footer {
 .red-flower {
   width: 200px;
   height: 300px;
-  margin: 80px 30px 0px 30px;
-  padding-bottom: 0px;
+  margin: 40px 35px -3px 35px;
+
+  /* margin: 80px 30px 0px 30px; */
+  /* padding-bottom: 0px; */
 }
 .red-bg {
+  width: 300px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
@@ -137,11 +157,14 @@ footer {
 .yellow-flower {
   width: 200px;
   height: 300px;
-  margin: 80px 30px 0px 30px;
-  padding-bottom: 0px;
+  margin: 40px 35px -3px 35px;
+
+  /* margin: 80px 30px 0px 30px; */
+  /* padding-bottom: 0px; */
 }
 
 .yellow-bg {
+  width: 300px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
 }
@@ -152,7 +175,64 @@ footer {
   color: #272727;
   font-size: 18px;
   font-weight: 700;
+  /* border: 5px solid; */
 }
 .flower-name h4 {
   margin-top: 25px;
+  /* border: 5px solid; */
+}
+
+/* ! This is service section */
+.service-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  text-align: center;
+  width: 1440px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 0px 250px 128px;
+  /* border: 5px solid; */
+}
+
+.service-name {
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  /* border: 5px solid; */
+}
+
+/* ! This is Deal Section */
+.deal-sec {
+  width: 1922px;
+  height: 620px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-conatainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.deal-descrip {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 21px;
+  font-weight: 400;
+  /* text-align: center; */
+  /* border: 5px solid; */
+  /* margin: 0px 400px 0px; */
+  width: 594px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  /* text-align: left; */
 }
